@@ -1,0 +1,10 @@
+:root {
+  --bg: #f8f7f4;
+  --ink: #111111;
+  --ink-2: #666666;
+  --muted: #e8e6e0;
+  --accent: #2b6cff;
+
+  --fade-mask: 72px;
+  --turn-width-pct: 60;
+}
