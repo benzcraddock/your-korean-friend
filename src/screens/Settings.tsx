@@ -129,6 +129,25 @@ export function Settings() {
               </button>
             </div>
           </section>
+
+          <section className="mb-10">
+            <div className="flex items-center justify-between gap-6">
+              <div>
+                <label className="block text-sm text-ink mb-1">Orb lab</label>
+                <p className="text-xs text-ink2">
+                  Preview the v2 R3F orb with state buttons and an amplitude slider.
+                  Dev only; not wired into sessions yet.
+                </p>
+              </div>
+              <button
+                onClick={() => goTo('orb-lab')}
+                className="px-4 py-2 text-sm border border-ink hover:bg-ink hover:text-bg transition-colors shrink-0"
+                style={{ borderRadius: 6 }}
+              >
+                Open
+              </button>
+            </div>
+          </section>
         </div>
       </main>
     </div>

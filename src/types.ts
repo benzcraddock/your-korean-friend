@@ -38,7 +38,7 @@ export type LengthMinutes = 1 | 2 | 5 | 10;
 
 export type OrbState = 'idle' | 'minji' | 'user';
 
-export type Screen = 'landing' | 'session' | 'recap' | 'settings';
+export type Screen = 'landing' | 'session' | 'recap' | 'settings' | 'orb-lab';
 
 export type RecapSummary = {
   turnsCompleted: number;
